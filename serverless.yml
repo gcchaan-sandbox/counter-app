@@ -31,6 +31,7 @@ functions:
 custom:
   cloudform:
     resources: "template"
+    ignorePackage: true
   dynamodb:
     stages:
       - dev
